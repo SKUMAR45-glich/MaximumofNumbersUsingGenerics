@@ -73,5 +73,42 @@ namespace GenericsMaxTesting
             //Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        [DataRow(5.2, 8.2, 9.3)]
+        public void TestforMaximumFloat(double num1, double num2, double num3)
+        {
+            //Arrange
+            MaximumNumberCheck maximumNumberCheck = new MaximumNumberCheck();
+            double expected = 9.3;
+
+            //Act
+            double actual = MaximumNumberCheck.MaximumDoubleNumber(num1, num2, num3);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        [DataRow(9.3, 9.3, 9.3)]
+        public void TestforDoubleSame(double num1, double num2, double num3)
+        {
+            //Arrange
+            MaximumNumberCheck maximumNumberCheck = new MaximumNumberCheck();
+            string expected = "firstNumber,secondNumber and thirdNumber are same";
+            string actual;
+            //Act
+            try
+            {
+                actual = Convert.ToString(MaximumNumberCheck.MaximumDoubleNumber(num1, num2, num3));
+            }
+            catch (ValidationException e)
+            {
+                actual = e.Message;
+            }
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
