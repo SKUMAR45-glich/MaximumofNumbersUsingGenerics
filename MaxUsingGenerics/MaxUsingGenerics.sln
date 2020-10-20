@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxUsingGenerics", "MaxUsingGenerics.csproj", "{B85136C9-B20F-44C6-BD1A-B9168DEB2FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsMaxTesting", "..\GenericsMaxTesting\GenericsMaxTesting.csproj", "{A828A00D-38D6-48D9-9D9E-D24E1CD6299D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B85136C9-B20F-44C6-BD1A-B9168DEB2FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85136C9-B20F-44C6-BD1A-B9168DEB2FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85136C9-B20F-44C6-BD1A-B9168DEB2FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85136C9-B20F-44C6-BD1A-B9168DEB2FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A828A00D-38D6-48D9-9D9E-D24E1CD6299D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A828A00D-38D6-48D9-9D9E-D24E1CD6299D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A828A00D-38D6-48D9-9D9E-D24E1CD6299D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A828A00D-38D6-48D9-9D9E-D24E1CD6299D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA26E7B1-F5CB-43E0-AB59-18B5E3920402}
+	EndGlobalSection
+EndGlobal
