@@ -20,7 +20,7 @@ namespace MaxUsingGenerics
             {
                 return thirdValue;
             }
-            throw new Exception("firstNumber,secondNumber and thirdNumber are same");
+            throw new ValidationException("firstNumber,secondNumber and thirdNumber are same");
         }
 
     }
