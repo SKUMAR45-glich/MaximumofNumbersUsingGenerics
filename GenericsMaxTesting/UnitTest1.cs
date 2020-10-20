@@ -83,7 +83,7 @@ namespace GenericsMaxTesting
             double expected = 9.3;
 
             //Act
-            double actual = MaximumNumberCheck.MaximumDoubleNumber(num1, num2, num3);
+            double actual = MaximumNumberCheck.MaximumFloatNumber(num1, num2, num3);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -100,7 +100,44 @@ namespace GenericsMaxTesting
             //Act
             try
             {
-                actual = Convert.ToString(MaximumNumberCheck.MaximumDoubleNumber(num1, num2, num3));
+                actual = Convert.ToString(MaximumNumberCheck.MaximumFloatNumber(num1, num2, num3));
+            }
+            catch (ValidationException e)
+            {
+                actual = e.Message;
+            }
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        [DataRow("Apple","Peach","Banana")]
+        public void MaximumStringValue(string num1, string num2, string num3)
+        {
+            //Arrange
+            MaximumNumberCheck maximumNumberCheck = new MaximumNumberCheck();
+            string expected = "Banana";
+
+            //Act
+            string actual = MaximumNumberCheck.MaximumStringNumber(num1, num2, num3);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        [DataRow("Peach", "Peach", "Peach")]
+        public void TestforStringSame(string num1, string num2, string num3)
+        {
+            //Arrange
+            MaximumNumberCheck maximumNumberCheck = new MaximumNumberCheck();
+            string expected = "firstNumber,secondNumber and thirdNumber are same";
+            string actual;
+            //Act
+            try
+            {
+                actual = Convert.ToString(MaximumNumberCheck.MaximumStringNumber(num1, num2, num3));
             }
             catch (ValidationException e)
             {

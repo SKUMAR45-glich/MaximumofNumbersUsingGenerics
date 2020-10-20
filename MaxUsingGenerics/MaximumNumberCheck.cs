@@ -23,7 +23,7 @@ namespace MaxUsingGenerics
             throw new ValidationException("firstNumber,secondNumber and thirdNumber are same");
         }
 
-        public static int MaximumDoubleNumber(int firstValue, int secondValue, int thirdValue)
+        public static double MaximumFloatNumber(double firstValue, double secondValue, double thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0)
             {
@@ -40,14 +40,33 @@ namespace MaxUsingGenerics
             throw new ValidationException("firstNumber,secondNumber and thirdNumber are same");
         }
 
-        public static int MaximumDoubleNumber(double num1, double num2, double num3)
+        public static string MaximumStringNumber(string firstString, string secondString, string thirdString)
         {
-            throw new NotImplementedException();
+            if (firstString.CompareTo(secondString) > 0 && firstString.CompareTo(thirdString) > 0 ||
+                firstString.CompareTo(secondString) >= 0 && firstString.CompareTo(thirdString) > 0 ||
+                firstString.CompareTo(secondString) > 0 && firstString.CompareTo(thirdString) >= 0)
+            {
+                return firstString;
+            }
+
+            if (secondString.CompareTo(firstString) > 0 && secondString.CompareTo(thirdString) > 0 ||
+                secondString.CompareTo(firstString) >= 0 && secondString.CompareTo(thirdString) > 0 ||
+                secondString.CompareTo(firstString) > 0 && secondString.CompareTo(thirdString) >= 0)
+            {
+                return secondString;
+            }
+
+            if (thirdString.CompareTo(firstString) > 0 && thirdString.CompareTo(secondString) > 0 ||
+                thirdString.CompareTo(firstString) >= 0 && thirdString.CompareTo(secondString) > 0 ||
+                thirdString.CompareTo(firstString) > 0 && thirdString.CompareTo(secondString) >= 0)
+            {
+                return thirdString;
+            }
+
+            throw new ValidationException("firstNumber,secondNumber and thirdNumber are same");
         }
 
-        public static int MaximumIntegerNumber(double num1, double num2, double num3)
-        {
-            throw new NotImplementedException();
-        }
+
+
     }
 }
