@@ -17,7 +17,12 @@ namespace MaxUsingGenerics
             Array.Sort(values);
             return values;
         }
-        public T MaxValue(T[] values)
+
+        void add(params int[] a)
+        {
+
+        }
+        public T MaxValue(params T[] values)
         {
             var sorted_values = Sort(values);
 
