@@ -1,0 +1,13 @@
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\bin\Debug\netcoreapp3.1\MaxUsingGenerics.exe
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\bin\Debug\netcoreapp3.1\MaxUsingGenerics.deps.json
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\bin\Debug\netcoreapp3.1\MaxUsingGenerics.runtimeconfig.json
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\bin\Debug\netcoreapp3.1\MaxUsingGenerics.runtimeconfig.dev.json
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\bin\Debug\netcoreapp3.1\MaxUsingGenerics.dll
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\bin\Debug\netcoreapp3.1\MaxUsingGenerics.pdb
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\obj\Debug\netcoreapp3.1\MaxUsingGenerics.csprojAssemblyReference.cache
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\obj\Debug\netcoreapp3.1\MaxUsingGenerics.AssemblyInfoInputs.cache
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\obj\Debug\netcoreapp3.1\MaxUsingGenerics.AssemblyInfo.cs
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\obj\Debug\netcoreapp3.1\MaxUsingGenerics.csproj.CoreCompileInputs.cache
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\obj\Debug\netcoreapp3.1\MaxUsingGenerics.dll
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\obj\Debug\netcoreapp3.1\MaxUsingGenerics.pdb
+C:\Users\saura\Desktop\Training\MaximumusingGenerics\MaxUsingGenerics\MaxUsingGenerics\obj\Debug\netcoreapp3.1\MaxUsingGenerics.genruntimeconfig.cache
